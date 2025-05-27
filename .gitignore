@@ -1,0 +1,24 @@
+# .gitignore
+
+# Fichiers de configuration sensibles
+.env
+
+# Dossiers temporaires et de cache
+/vendor/
+node_modules/
+tmp/
+cache/
+*.log
+
+# Fichiers générés par l’IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers de sessions PHP
+sessions/
